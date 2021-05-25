@@ -1,1 +1,34 @@
-
+{"intents":[
+    {"tag": "greetings",
+     "patterns":["hello","hey","hi","good day","how you doing","whats up","fancy a tea","fancy seeing you here"],
+     "responses":["hello!","hey!","what can i do for you"]
+     },
+    {"tag": "goodbye",
+     "patterns": ["syonara", "see you later", "see ya", "good bye", "see you soon", "we will meet some time later", "fancy a tea",
+                  "go home","have a good day"],
+     "responses": ["sad to see you go ", "talk to you later", "good bye","it was nice seeing you here"]
+     },
+    {"tag": "age",
+      "patterns": ["how old", "how old is mayank", "what's your age", "how old are you", "age?"],
+      "responses": ["21 years!","my owner mayank is 21 years old"]
+      },
+    {"tag": "name",
+     "patterns": ["what's your name", "what should i call you", "who are you again?", "you good name", "can i have you with your name?"],
+     "responses": ["my name is network", "i am network", "you can call me network","its network","network"]
+     },
+    {"tag": "shop",
+     "patterns": ["i would like to buy some thing", "what are your products", "what do you recommend", "what are you selling",
+                  "do you have product"],
+     "responses": ["yes we have product", "product have vitamins minerals and posees omega 3 ", "book has 500 pages and is written in simple,lucid and easy to understand language", "product comes in six sizes"]
+     },
+           {"tag": "grades",
+     "patterns": ["what was your percentage in 12", "what was your percentage in 10", "what was you gpa in college", "gpa","marks",
+                  "grades in 12,10"],
+     "responses": ["my gpa was 7", "gpa 7 ", "90% in 10", "70 % in 12","465 out of 500"]
+     },
+           {"tag": "hours",
+     "patterns": ["how many hours you work in a week", "when are you guys open","what are your working hours","how many hours a day you work"],
+     "responses": ["6 hours a day", "24/7", "60 hours a week"]
+     }
+     ]
+}
